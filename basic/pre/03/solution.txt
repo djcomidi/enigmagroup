@@ -1,0 +1,5 @@
+append "robots.txt" to the url
+there is a mention of a directory "f0rk"
+replace "robots.txt" in the url with "f0rk/"
+in config.inc are the credentials to log in
+
