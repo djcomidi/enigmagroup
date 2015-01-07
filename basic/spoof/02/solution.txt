@@ -1,0 +1,4 @@
+Use FireFox with TamperData
+Enable TamperData before clicking on the link to the challenge
+Modify the User-Agent string to "EnigmaFox"
+
