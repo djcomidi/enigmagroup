@@ -1,0 +1,31 @@
+The semi-decompiled file says it all:
+
+400673 !   mov         edi, strz__________________________400800
+400678 !   call        wrapper_601008_400520
+40067d !   mov         edi, strz___Linux_App_Cracking_1___400819
+400682 !   call        wrapper_601008_400520
+400687 !   mov         edi, strz_______EnigmaGroup________400832
+40068c !   call        wrapper_601008_400520
+400691 !   mov         edi, strz__________________________40084b
+400696 !   call        wrapper_601008_400520
+40069b !   mov         qword ptr [rbp-18h], strz_gdbrocks_400864
+4006a3 !   mov         edi, strz_Enter_the_password:__40086d
+4006a8 !   mov         eax, 0
+4006ad !   call        wrapper_601000_400510
+4006b2 !   lea         rsi, [rbp-10h]
+4006b6 !   mov         edi, data_400882
+4006bb !   mov         eax, 0
+4006c0 !   call        wrapper_601018_400540
+4006c5 !   mov         rsi, [rbp-18h]
+4006c9 !   lea         rdi, [rbp-10h]
+4006cd !   mov         eax, 0
+4006d2 !   call        wrapper_601028_400560
+4006d7 !   test        eax, eax
+4006d9 !   jnz         loc_4006e7
+4006db !   mov         edi, strz__Success__enter_this_password_at_enigmagroup.org_for_your_points__400888
+4006e0 !   call        wrapper_601008_400520
+4006e5 !   jmp         loc_4006f1
+4006e7 !
+...... ! loc_4006e7:                     ;xref j4006d9
+...... !   mov         edi, strz__Wrong_password..._4008ca
+           
