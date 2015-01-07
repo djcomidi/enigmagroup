@@ -1,0 +1,4 @@
+Using WebDeveloper Toolbar in FireFox:
+WebDeveloper > Forms > Convert Select Elements To Text Inputs
+Enter "Jane" as name
+Submit
