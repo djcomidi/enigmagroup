@@ -1,0 +1,4 @@
+View the source.
+It contains a comment that says:
+
+<!-- the first levels are easy, the password is ?????? -->
