@@ -1,0 +1,7 @@
+View the source
+It refers to another js-file
+Don't be fooled by the <script> src attribute
+Appending just password.js to the url will give a fake js-file
+The real link is:
+http://www.enigmagroup.org/missions/basics/js/6/www.enigmagroup.org/missions/basics/js/6/password.js
+Open it and see the password
