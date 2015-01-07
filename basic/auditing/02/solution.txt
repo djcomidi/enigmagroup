@@ -1,0 +1,5 @@
+The script tells us that it searches for a cookie named "admin"
+Also, to pass, this cookie must have the value "1"
+Change the cookie accordingly
+Refresh
+
