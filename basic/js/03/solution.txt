@@ -1,0 +1,5 @@
+Cancel the dialog
+View the source (scroll way down!)
+Find the responsible javscript source
+Again, don't be fooled.
+The password is not "hax0r" :)
