@@ -1,0 +1,9 @@
+The relevant decompiled code:
+
+4008a1 !   jz          loc_4008ad
+4008a3 !   mov         edi, strz_Wrong_memory_address...__400c2d
+4008a8 !   call        die
+4008ad !
+...... ! loc_4008ad:                     ;xref j4008a1
+...... !   mov         edi, strz_Congratulations___Enter_KingTux_at_enigmagroup.org_for_your_points___400c48
+
