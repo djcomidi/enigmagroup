@@ -1,0 +1,5 @@
+Just click "Log In"
+The url changes to index.php?file=login.php
+The page also mentions password.php
+Change the url to index.php?file=password.php
+See thee password
