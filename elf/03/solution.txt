@@ -1,0 +1,7 @@
+The relevant decompiled code:
+
+401960
+......   strz__sThe_password_for_enigmagroup.org_is__Antsy_..._s___401960:
+......                                   ;xref o401155
+......     db          "%sThe password for enigmagroup.org is 'Antsy'...%s\n\n\0"
+
