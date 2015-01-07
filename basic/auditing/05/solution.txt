@@ -1,0 +1,4 @@
+The only thing we can work with is the GET parameter "file"
+The only file we know to exist is "config.php"
+Append "?file=config.php" to the url
+
