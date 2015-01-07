@@ -1,0 +1,5 @@
+Cancel the dialog
+View the source
+Find the responsible javascript code
+The password is not "hax0r" :)
+
