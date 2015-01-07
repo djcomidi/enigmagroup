@@ -1,0 +1,6 @@
+Both auth and pass are encrypted with MD5
+A reverse lookup reveals that:
+- Authorization code: fce0dfbaafd8198a734cd368b3ea4f5e == MD5("8592-4353-4882-9172-8634-2323")
+- Password:           a8549033af1cda11ab2360d93ebc8764 == MD5("javaroks")
+
+
