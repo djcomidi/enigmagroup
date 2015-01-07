@@ -1,0 +1,7 @@
+it states it can not find a file in directory "dontlookinhere"
+append "dontlookinhere" to the url
+the directory contains a password.inc file
+in password.inc there is one entry in the form of
+<username>:<password>
+use those credentials in the original form
+
