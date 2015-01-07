@@ -1,0 +1,3 @@
+"%27" needs to be escaped
+javascript:escape("%27")="%2527"
+
