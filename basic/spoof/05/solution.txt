@@ -1,0 +1,5 @@
+Use FireFox and Cookies Manager+
+Go to the challenge
+Modify the "authorized" cookie from "false" to "true"
+Refresh page
+
