@@ -1,0 +1,16 @@
+Adam has one more coin than Bob
+So assume Adam has 2 coins, Bob has 1 coin
+
+Possible outcomes for:
+Adam: HH, HT, TH, TT
+Bob: H, T
+
+Situations wher Adam has more T than Bob:
+Adam Bob Probability
+HT   H   2/4 * 1/2 = 2/8
+TT   H   1/4 * 1/2 = 1/8
+TT   T   1/4 * 1/2 = 1/8
+
+The sum of the probabilities is 4/8
+Which can be reduced to 1/2
+
