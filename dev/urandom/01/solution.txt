@@ -1,0 +1,8 @@
+Download http://www.enigmagroup.org/missions/dev/urandom/1/note.png
+This image is made with 2 color codes
+Use enhance.py to enhance those colors
+Open noteB.png, it gives you the name of an exe-file
+Download http://www.enigmagroup.org/missions/dev/urandom/1/<file>.exe
+On linux you can execute this with wine.
+It gave me 2 files: one containing the password
+
