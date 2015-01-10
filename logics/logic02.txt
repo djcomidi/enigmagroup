@@ -1,0 +1,9 @@
+We start with a bag of 1 coin.
+Next we add a bag with number of coins that contains one more coins than all the previous bags together.
+This gives us the following sequence:
+2=1+1
+4=2+1+1
+8=4+2+1+1
+18=8+4+2+1+1
+etc
+
