@@ -19,11 +19,9 @@
 # 401170 !   mov         byte ptr [rbp-5], 40h
 # 401174 !   mov         byte ptr [rbp-4], 4ah
 
-s="G3R0054731720"
-arr=[9,3,6,5,0,0x5d,0,0x45,0x57,0x4b,7,0x40,0x4a]
-
-sol=""
+s = "G3R0054731720"
+arr = [9, 3, 6, 5, 0, 0x5d, 0, 0x45, 0x57, 0x4b, 7, 0x40, 0x4a]
+sol = ""
 for i in range(len(s)):
-	sol += chr( ord(s[i]) ^ arr[i] )
+    sol += chr(ord(s[i]) ^ arr[i])
 print(sol)
-

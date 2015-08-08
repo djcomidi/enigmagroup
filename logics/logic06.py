@@ -11,13 +11,15 @@
 F_TO_M = 2160
 M_TO_F = 2520
 
-DMAX = min(  F_TO_M//8, M_TO_F//10 ) + 1
-FMAX = min(  F_TO_M//9,  M_TO_F//9 ) + 1
-UMAX = min( F_TO_M//10,  M_TO_F//8 ) + 1
+DMAX = min(F_TO_M // 8, M_TO_F // 10) + 1
+FMAX = min(F_TO_M // 9, M_TO_F // 9) + 1
+UMAX = min(F_TO_M // 10, M_TO_F // 8) + 1
 
 for d in range(DMAX):
-	for f in range(FMAX):
-		for u in range(UMAX):
-			if 8*d+9*f+10*u != F_TO_M: continue
-			if 10*d+9*f+8*u != M_TO_F: continue
-			print(d+f+u, d, f, u)
+    for f in range(FMAX):
+        for u in range(UMAX):
+            if 8*d + 9*f + 10*u != F_TO_M:
+                continue
+            if 10*d + 9*f + 8*u != M_TO_F:
+                continue
+            print(d+f+u, d, f, u)

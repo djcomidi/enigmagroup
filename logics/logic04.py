@@ -10,12 +10,12 @@ from functools import reduce
 
 BILLION = 10**9
 target = 10**10
-POWERS = [4,4,4,1,1,1]
-PRIMES = sorted( set( combinations( [2,3,5,7,11,13,17], 6 ) ) )
+POWERS = [4, 4, 4, 1, 1, 1]
+PRIMES = sorted(set(combinations([2, 3, 5, 7, 11, 13, 17], 6)))
 for primes in PRIMES:
-	pp = list(zip( primes, POWERS ))
-	n = reduce( lambda a, b: a*b, [ p[0]**p[1] for p in pp ], 1 )
-	if BILLION < n < target:
-		print(n, pp)
-		target = n
+    pp = list(zip(primes, POWERS))
+    n = reduce(lambda a, b: a*b, [p[0]**p[1] for p in pp], 1)
+    if BILLION < n < target:
+        print(n, pp)
+        target = n
 print(target)
