@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import sys
 
 #      318330220904692713533  158846 12616105281
@@ -13,7 +11,7 @@ while True:
 	total += y
 	check = 1337 + (total * y**2)
 	if check > TARGET:
-		print TARGET
-		print "%21s %d" % (check, y)
+		print(TARGET)
+		print("%21s %d" % (check, y))
 		sys.exit()
 	y += 1

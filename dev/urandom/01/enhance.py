@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
 from PIL import Image
 
 imgA = Image.open('note.png')
-print list(imgA.getcolors())
+print(list(imgA.getcolors()))
 data = list(imgA.getdata())
 newdata = []
 for d in data:

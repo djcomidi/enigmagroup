@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import re
 from itertools import permutations
 
@@ -27,6 +25,6 @@ for perm in permutations("abcdefghijklmnopqrstuvwxyz",3):
 	if re.match(REGEX[4],word) == None: continue
 	if re.match(REGEX[5],word) == None: continue
 	if re.match(REGEX[6],word) == None: continue
-	print word
+	print(word)
 	break
 

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from itertools import permutations
 
 nBreads=3
@@ -16,4 +14,4 @@ for p in permutations('000ABCDEFGH',r=3):
 	toppings.add( ''.join(sorted(p)) )
 nToppings=len(toppings)
 
-print nBreads * nMeats * nCheeses * nToppings
+print(nBreads * nMeats * nCheeses * nToppings)

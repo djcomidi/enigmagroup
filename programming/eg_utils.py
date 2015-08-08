@@ -1,9 +1,7 @@
-#!/usr/bin/env python
-
 from os.path import expanduser
 import re
 import sqlite3
-import urllib
+from urllib import request
 
 def get_login_cookie():
 	COOKIE_DB = expanduser("~/.mozilla/firefox/8g2pi1tn.default/cookies.sqlite")
@@ -14,8 +12,8 @@ def get_login_cookie():
 		cur = conn.cursor()
 		cur.execute( QUERY )
 		data = cur.fetchone()
-	except lite.Error, e:
-		print e.args
+	except lite.Error as e:
+		print(e.args)
 		data = None
 	finally:
 		if conn:
@@ -25,6 +23,6 @@ def get_login_cookie():
 	return ('Cookie', data[1] + '=' + data[2])
 
 def get_external_ip():
-	site = urllib.urlopen("http://checkip.dyndns.org/").read()
+	site = request.urlopen("http://checkip.dyndns.org/").read()
 	grab = re.findall('([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)', site)
 	return grab[0]        

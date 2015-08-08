@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import sys
 
 def calculate(s,n):
@@ -12,7 +10,7 @@ def calculate(s,n):
 def search_passwords(passw=""):
 	pc = calculate(passw,3)
 	if pc == 2308:
-		print passw
+		print(passw)
 		sys.exit() # only one password is enough
 	elif pc > 2308:
 		return
@@ -23,5 +21,5 @@ def search_passwords(passw=""):
 
 REF = "BHFE8"
 REFSUM = calculate(REF,5)
-print REFSUM
+print(REFSUM)
 search_passwords()

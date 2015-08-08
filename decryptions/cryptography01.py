@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 def rot13(c):
 	start = ord("A")
 	if c in "abcdefghijklmnopqrstuvwxyz": start = ord("a")
@@ -10,5 +8,4 @@ s="EbGguvEgrRavfNcvRprbsShpXvatCvFf"
 sol=""
 for c in s:
 	sol += rot13(c)
-print sol
-
+print(sol)
